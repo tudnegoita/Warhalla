@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>entity</OriginalElement>
+  <nodes>
+    <node x="140.0" y="395.0">entity.PlayerSpawner</node>
+    <node x="536.0" y="160.0">entity.Viking</node>
+    <node x="164.0" y="160.0">entity.Knight</node>
+    <node x="0.0" y="160.0">entity.PlayerCastle</node>
+    <node x="158.66666666666663" y="240.0">entity.Knight3</node>
+    <node x="530.6666666666666" y="240.0">entity.Viking2</node>
+    <node x="34.66666666666663" y="240.0">entity.Knight2</node>
+    <node x="324.66666666666663" y="80.0">entity.MovingEntity</node>
+    <node x="654.6666666666666" y="240.0">entity.Viking1</node>
+    <node x="282.66666666666663" y="240.0">entity.Knight1</node>
+    <node x="0.0" y="395.0">entity.AISpawner</node>
+    <node x="406.66666666666663" y="240.0">entity.Viking3</node>
+    <node x="332.66666666666663" y="0.0">entity.GameObject</node>
+    <node x="652.0" y="160.0">entity.AICastle</node>
+    <node x="62.0" y="315.0">entity.EntitySpawner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="entity.PlayerSpawner" target="entity.EntitySpawner">
+      <point x="0.0" y="-15.0" />
+      <point x="216.0" y="370.0" />
+      <point x="176.0" y="370.0" />
+      <point x="38.0" y="15.0" />
+    </edge>
+    <edge source="entity.Knight3" target="entity.Knight">
+      <point x="0.0" y="-15.0" />
+      <point x="210.66666666666663" y="215.0" />
+      <point x="212.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="entity.Knight2" target="entity.Knight">
+      <point x="0.0" y="-15.0" />
+      <point x="86.66666666666663" y="215.0" />
+      <point x="180.0" y="215.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="entity.Knight1" target="entity.Knight">
+      <point x="0.0" y="-15.0" />
+      <point x="334.66666666666663" y="215.0" />
+      <point x="244.0" y="215.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="entity.Viking3" target="entity.Viking">
+      <point x="0.0" y="-15.0" />
+      <point x="458.66666666666663" y="215.0" />
+      <point x="552.0" y="215.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="entity.Viking2" target="entity.Viking">
+      <point x="0.0" y="-15.0" />
+      <point x="582.6666666666666" y="215.0" />
+      <point x="584.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="entity.Viking1" target="entity.Viking">
+      <point x="0.0" y="-15.0" />
+      <point x="706.6666666666666" y="215.0" />
+      <point x="616.0" y="215.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="entity.AISpawner" target="entity.EntitySpawner">
+      <point x="0.0" y="-15.0" />
+      <point x="60.0" y="370.0" />
+      <point x="100.0" y="370.0" />
+      <point x="-38.0" y="15.0" />
+    </edge>
+    <edge source="entity.Viking" target="entity.MovingEntity">
+      <point x="0.0" y="-15.0" />
+      <point x="584.0" y="140.0" />
+      <point x="414.66666666666663" y="140.0" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="entity.MovingEntity" target="entity.GameObject">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="entity.PlayerCastle" target="entity.MovingEntity">
+      <point x="0.0" y="-15.0" />
+      <point x="72.0" y="130.0" />
+      <point x="342.66666666666663" y="130.0" />
+      <point x="-54.0" y="15.0" />
+    </edge>
+    <edge source="entity.AICastle" target="entity.MovingEntity">
+      <point x="0.0" y="-15.0" />
+      <point x="708.0" y="130.0" />
+      <point x="450.66666666666663" y="130.0" />
+      <point x="54.0" y="15.0" />
+    </edge>
+    <edge source="entity.Knight" target="entity.MovingEntity">
+      <point x="0.0" y="-15.0" />
+      <point x="212.0" y="140.0" />
+      <point x="378.66666666666663" y="140.0" />
+      <point x="-18.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="382.0" y="212.5" />
+  <SelectedNodes>
+    <node>entity.EntitySpawner</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

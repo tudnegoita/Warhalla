@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controller</OriginalElement>
+  <nodes>
+    <node x="164.0" y="80.0">controller.NonMovingController</node>
+    <node x="200.0" y="0.0">controller.Controller</node>
+    <node x="236.0" y="235.0">controller.AISpawnController</node>
+    <node x="384.0" y="80.0">controller.PlayerController</node>
+    <node x="0.0" y="80.0">controller.AIController</node>
+    <node x="0.0" y="235.0">controller.PlayerSpawnController</node>
+    <node x="134.0" y="155.0">controller.SpawnController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.PlayerSpawnController" target="controller.SpawnController">
+      <point x="0.0" y="-15.0" />
+      <point x="108.0" y="210.0" />
+      <point x="176.0" y="210.0" />
+      <point x="-42.0" y="15.0" />
+    </edge>
+    <edge source="controller.AISpawnController" target="controller.SpawnController">
+      <point x="0.0" y="-15.0" />
+      <point x="328.0" y="210.0" />
+      <point x="260.0" y="210.0" />
+      <point x="42.0" y="15.0" />
+    </edge>
+    <edge source="controller.NonMovingController" target="controller.Controller">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="controller.PlayerController" target="controller.Controller">
+      <point x="0.0" y="-15.0" />
+      <point x="472.0" y="55.0" />
+      <point x="306.66666666666663" y="55.0" />
+      <point x="42.66666666666663" y="15.0" />
+    </edge>
+    <edge source="controller.AIController" target="controller.Controller">
+      <point x="0.0" y="-15.0" />
+      <point x="72.0" y="55.0" />
+      <point x="221.33333333333331" y="55.0" />
+      <point x="-42.666666666666686" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="280.0" y="132.5" />
+  <SelectedNodes>
+    <node>controller.AIController</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
